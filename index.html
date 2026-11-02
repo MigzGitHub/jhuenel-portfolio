@@ -1,0 +1,909 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#F5EEE8">
+<meta property="og:title" content="Jhuenel Elih Casipit | Executive Assistant & Lead Generation Specialist">
+<meta property="og:description" content="10 years of reliable remote support for admin, outreach, customer support, research and operations, delivered with care.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/img/portrait.webp">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23F5EEE8' stroke='%23A78065' stroke-width='2'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='26' font-weight='bold' text-anchor='middle' fill='%2375523D'%3EJ%3C/text%3E%3C/svg%3E">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Jhuenel Elih Casipit Portfolio</title>
+<meta name="description" content="Jhuenel Elih Casipit, Executive Assistant and Lead Generation Specialist with 10 years of remote experience in admin, outreach, customer support, research and operations.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@400;500;600&family=Great+Vibes&display=swap">
+<style>
+/* Layout: her cover sheet as a living page. Hero with name, role chips and stat row beside the soft-edged portrait (glow behind, gentle float, outlined watermark word). Company strip. Services as filterable selectable cards with a detail panel (accordion on phones). Experience log. Tool inventory grid with detail. Strengths. Booking + message desk. Single light theme by choice, to match her printed brand. */
+:root{
+  --bg:#F5EEE8; --paper:#FFFFFF; --card:#FBF8F5; --ink:#3B2A20; --muted:#75523D; --faint:#86664F; --accent:#75523D; --gold:#A78065; --beige:#DBC2AE; --soft:#EFE3D8; --line:#E7D7CA; --ok:#4f7f55; --err:#a8462f;
+  --display:"Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --title:"Playfair Display", Georgia, serif;
+  --script:"Great Vibes", "Snell Roundhand", cursive;
+  --body:"Montserrat", "Helvetica Neue", Arial, sans-serif;
+  --shadow:0 1px 2px rgba(58,39,28,.05), 0 24px 50px -26px rgba(58,39,28,.32);
+  --lift:0 1px 2px rgba(58,39,28,.05), 0 18px 34px -18px rgba(117,82,61,.38);
+  --ease:cubic-bezier(.22,.61,.36,1);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--bg)}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-weight:400;line-height:1.7;font-size:15.5px;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:20;background:var(--bg)}
+.wrap{max-width:1200px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--display);font-weight:600;margin:0;text-wrap:balance;line-height:1.05;letter-spacing:-.005em}
+.hero .eyebrow{font-size:.66rem}
+.eyebrow{display:flex;align-items:center;gap:12px;font-size:.72rem;letter-spacing:.3em;text-transform:uppercase;color:var(--accent);margin:0;font-weight:500}
+.eyebrow::before{content:"";width:30px;height:1px;background:var(--gold)}
+button,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+a{color:inherit}
+.hov{transition:transform .2s var(--ease),border-color .2s,background-color .2s,box-shadow .2s,color .2s}
+.hov:hover{transform:translateY(-3px)}
+.hov:active{transform:translateY(0) scale(.98)}
+.d-only{}
+.m-only{display:none!important}
+
+/* nav */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:15;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:12px}
+.mono{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0}
+.mono b{flex:none;display:grid;place-items:center;width:40px;height:40px;border:1px solid var(--gold);border-radius:50%;font-family:var(--display);font-weight:700;font-size:.95rem;letter-spacing:.04em;color:var(--accent)}
+.mono span{font-size:.76rem;letter-spacing:.24em;text-transform:uppercase;white-space:nowrap;font-weight:500}
+.bar nav{display:flex;gap:4px;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase}
+.bar nav a{text-decoration:none;color:var(--muted);padding:8px 12px;border-radius:999px;transition:color .2s,background .2s}
+.bar nav a:hover{color:var(--ink)}
+.bar nav a.on{color:var(--accent);background:var(--soft)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 26px;border-radius:999px;text-decoration:none;font-size:.82rem;font-weight:500;letter-spacing:.16em;text-transform:uppercase;border:1px solid var(--accent);cursor:pointer;background:none;color:var(--accent)}
+.btn.solid{background:var(--accent);color:var(--paper);box-shadow:0 12px 30px -12px rgba(117,82,61,.55)}
+.btn.solid:hover{background:var(--ink);border-color:var(--ink);box-shadow:0 16px 34px -12px rgba(58,39,28,.5)}
+.btn.ghost{border-color:var(--line);color:var(--ink);background:var(--paper)}
+.btn.ghost:hover{border-color:var(--gold);color:var(--accent)}
+.btn.sm{padding:10px 18px;font-size:.74rem}
+.btn svg{flex:none}
+.btn[disabled]{opacity:.6;cursor:progress;transform:none}
+
+/* hero */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(ellipse at 76% 46%,#FFFFFF 0%,var(--bg) 60%)}
+.dots{position:absolute;inset:0;background-image:radial-gradient(rgba(117,82,61,.12) 1px,transparent 1.2px);background-size:26px 26px;-webkit-mask-image:radial-gradient(ellipse at 70% 45%,#000 0%,transparent 70%);mask-image:radial-gradient(ellipse at 70% 45%,#000 0%,transparent 70%);pointer-events:none}
+.watermark{position:absolute;right:-1%;top:7%;font-family:var(--display);font-weight:500;font-style:italic;font-size:clamp(110px,15vw,230px);line-height:.9;color:transparent;-webkit-text-stroke:1px rgba(167,128,101,.38);white-space:nowrap;pointer-events:none;user-select:none}
+.hero-in{position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:clamp(24px,4vw,48px);padding-block:clamp(14px,3.2vh,36px) clamp(16px,3.4vh,40px)}
+.hero-text{flex:1 1 480px;min-width:0;display:flex;flex-direction:column;gap:clamp(10px,2.2vh,20px);padding-block:0}
+.hero h1{font-size:clamp(2.4rem,min(5.6vw,10.5vh),5.2rem);line-height:.95;font-weight:700;color:var(--accent);letter-spacing:-.01em}
+.hero h1 em{display:block;font-weight:700;font-style:normal;color:var(--accent)}
+.chips{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(5px,1vh,8px);max-width:540px}
+.chips li{display:flex;min-width:0}
+.chip{all:unset;box-sizing:border-box;cursor:pointer;width:100%;display:flex;align-items:center;justify-content:center;text-align:center;white-space:nowrap;font-family:var(--title);font-size:clamp(.74rem,1.6vh,.84rem);font-weight:400;letter-spacing:.01em;padding:clamp(4px,.9vh,7px) 8px;transition:transform .2s var(--ease),border-color .2s,box-shadow .2s;border-radius:999px;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.chip.key{border-color:var(--accent);color:var(--accent)}
+.chip:hover{transform:translateY(-2px);border-color:var(--gold);box-shadow:var(--lift)}
+.chip:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.chip[aria-expanded="true"]{background:var(--accent);border-color:var(--accent);color:var(--paper);box-shadow:var(--lift)}
+.hero-text{position:relative}
+.skpop{position:fixed;z-index:30;width:min(460px,calc(100vw - 32px));max-height:calc(100vh - 110px);overflow-y:auto;scrollbar-width:none;background:var(--paper);border:1px solid var(--line);border-radius:18px;box-shadow:0 2px 6px rgba(58,39,28,.06),0 28px 60px -24px rgba(58,39,28,.4);padding:14px 18px 14px;animation:popin .28s var(--ease)}
+.skpop.float::before{display:none}
+.skpop.float{animation:popin .28s var(--ease)}
+@keyframes popside{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
+.skpop.tight{padding:12px 16px 12px}
+.skpop.tight h4{font-size:1.1rem}
+.skpop.tight .hl{font-size:.8rem;margin-bottom:6px}
+.skpop.tight li{font-size:.72rem;line-height:1.4}
+.skpop.tight ul{gap:3px}
+.skpop.tight .proof{margin-top:8px;padding:6px 10px}
+.skpop.tight .go{margin-top:6px}
+.skpop.up::before{top:auto;bottom:-7px;transform:translateX(-50%) rotate(225deg)}
+.skpop::before{content:"";position:absolute;top:-7px;left:var(--ax,50%);width:12px;height:12px;background:var(--paper);border-left:1px solid var(--line);border-top:1px solid var(--line);transform:translateX(-50%) rotate(45deg)}
+@keyframes popin{from{opacity:0;transform:translateY(6px) scale(.98)}to{opacity:1;transform:none}}
+.skpop .x{all:unset;cursor:pointer;position:absolute;right:8px;top:8px;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;color:var(--muted)}
+.skpop .x:hover{background:var(--soft);color:var(--ink)}
+.skpop .x:focus-visible{outline:2px solid var(--accent)}
+.skpop .eb{font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:600}
+.skpop h4{font-family:var(--display);font-weight:600;font-size:1.22rem;line-height:1.1;margin:2px 34px 2px 0;color:var(--ink)}
+.skpop .hl{font-family:var(--title);font-style:italic;font-size:.84rem;color:var(--accent);margin:0 0 8px}
+.skpop ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:4px}
+.skpop li{display:flex;gap:9px;font-size:.76rem;line-height:1.45;color:var(--ink)}
+.skpop li::before{content:"";flex:none;width:6px;height:6px;background:var(--gold);transform:rotate(45deg);margin-top:.55em}
+.skpop .proof{margin-top:10px;padding:7px 11px;align-items:center;border-radius:12px;background:var(--soft);display:flex;gap:10px;align-items:flex-start}
+.skpop .proof b{flex:none;font-family:var(--display);font-size:1.1rem;font-weight:700;line-height:1;color:var(--accent);padding-top:2px}
+.skpop .proof span{font-size:.7rem;line-height:1.4;color:var(--muted)}
+.skpop .go{display:inline-flex;gap:6px;margin-top:8px;font-size:.66rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);text-decoration:none}
+.skpop .go:hover{text-decoration:underline;text-underline-offset:4px}
+@media (max-width:640px){.skpop{position:fixed;left:16px!important;right:16px;top:auto!important;bottom:calc(env(safe-area-inset-bottom,0px) + 16px);width:auto;max-height:70vh;overflow:auto;z-index:40}.skpop::before{display:none}}
+.lead{margin:0;font-size:clamp(.88rem,2vh,1rem);line-height:1.65;color:var(--muted);max-width:540px}
+.ctas{display:flex;flex-wrap:wrap;gap:12px}
+.hero .btn{padding:clamp(10px,1.7vh,14px) 22px;font-size:.76rem}
+.statrow{position:relative;z-index:2;display:flex;width:100%;max-width:min(440px,100%);margin-top:-28px;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:16px;padding:clamp(8px,1.5vh,14px) 6px;box-shadow:var(--shadow)}
+.statrow div{flex:1 1 0;min-width:0;display:flex;flex-direction:column;align-items:center;text-align:center;gap:4px;padding:0 10px}
+
+.statrow div+div{border-left:1px solid var(--line)}
+.statrow b{font-family:var(--display);font-size:clamp(1.4rem,3.4vh,1.9rem);font-weight:700;line-height:1;font-variant-numeric:tabular-nums}
+.statrow b i{font-style:normal;color:var(--accent);font-size:.6em;margin-left:2px}
+.statrow span{font-size:clamp(.62rem,1.4vh,.7rem);font-weight:500;letter-spacing:.04em;color:var(--muted);line-height:1.3}
+.hero-art{flex:1 1 440px;min-width:0;position:relative;display:flex;flex-direction:column;justify-content:center;align-items:center}
+.backdrop{position:absolute;left:-8%;right:-10%;top:-22%;bottom:0;pointer-events:none;-webkit-mask-image:radial-gradient(closest-side at 54% 52%,#000 62%,transparent 100%);mask-image:radial-gradient(closest-side at 54% 52%,#000 62%,transparent 100%);
+ background:
+  radial-gradient(circle at 84% 24%,rgba(255,236,206,.95) 0,rgba(255,236,206,.55) 3%,transparent 9%),
+  radial-gradient(circle at 92% 22%,rgba(255,236,206,.85) 0,rgba(255,236,206,.4) 2.5%,transparent 7%),
+  radial-gradient(ellipse 40% 55% at 86% 30%,rgba(255,228,196,.45),transparent 70%),
+  linear-gradient(90deg,transparent 62%,rgba(255,255,255,.55) 70%,transparent 78%),
+  linear-gradient(170deg,#FFFFFF 0%,#F7F0EA 40%,#EFE3D8 75%,#E8D8CA 100%)}
+.backdrop .light{position:absolute;inset:0;background:radial-gradient(circle at 84% 24%,rgba(255,232,200,.6),transparent 18%);animation:glow 5s ease-in-out infinite}
+.deco{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible}
+.deco .arc{fill:none;stroke:var(--gold);stroke-width:1.4;opacity:.8;stroke-dasharray:1400;animation:draw 2.6s var(--ease) both}
+@keyframes draw{from{stroke-dashoffset:1400}}
+.deco .wave{fill:#FFFFFF;opacity:.92}
+.deco .wave2{fill:#F5EEE8}
+.deco .wline{fill:none;stroke:var(--gold);stroke-width:1;opacity:.7}
+.sprig{position:absolute;right:-2%;top:16%;width:30%;max-width:100%;height:auto;pointer-events:none;animation:sway 8s ease-in-out infinite;transform-origin:70% 100%}
+@keyframes sway{0%,100%{transform:rotate(0)}50%{transform:rotate(-2deg)}}
+@keyframes glow{0%,100%{opacity:.55}50%{opacity:1}}
+.float{animation:float 7s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.hero-img{position:relative;z-index:1;width:100%;max-width:min(480px,calc((100vh - 200px) * 0.89))}
+.deco.front{z-index:2;-webkit-mask-image:linear-gradient(90deg,transparent,#000 18%,#000 82%,transparent);mask-image:linear-gradient(90deg,transparent,#000 18%,#000 82%,transparent)}
+.hero-img img{display:block;width:100%;height:auto;aspect-ratio:910/1022}
+.baseline{display:none;position:absolute;left:6%;right:6%;bottom:0;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.strip{position:relative;border-top:1px solid var(--line);background:color-mix(in srgb,var(--paper) 80%,transparent)}
+.stripin{display:flex;align-items:center;gap:24px;padding-block:14px}
+.strip .lbl{flex:none;color:var(--faint);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;font-weight:500}
+.marq{flex:1;min-width:0;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.mtrack{display:flex;width:max-content;animation:marquee 38s linear infinite}
+.marq:hover .mtrack,.marq:focus-within .mtrack{animation-play-state:paused}
+@keyframes marquee{to{transform:translateX(-50%)}}
+.co{all:unset;box-sizing:border-box;cursor:pointer;position:relative;display:inline-flex;align-items:center;gap:8px;margin-right:14px;padding:9px 16px;border-radius:999px;border:1px solid transparent;font-size:.78rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);white-space:nowrap;transition:color .2s,background .2s,border-color .2s,transform .2s var(--ease),box-shadow .2s}
+.co::after{content:"";width:6px;height:6px;background:var(--gold);transform:rotate(45deg);margin-left:22px;transition:transform .3s var(--ease)}
+.co:hover,.co:focus-visible{color:var(--accent);background:var(--paper);border-color:var(--gold);transform:translateY(-2px);box-shadow:var(--lift)}
+.co:hover::after{transform:rotate(225deg)}
+.co:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.co .tip{position:absolute;left:50%;bottom:calc(100% + 6px);transform:translate(-50%,4px);opacity:0;pointer-events:none;background:var(--ink);color:var(--paper);font-size:.66rem;letter-spacing:.06em;text-transform:none;font-weight:500;padding:5px 10px;border-radius:8px;white-space:nowrap;transition:.2s}
+.co:hover .tip,.co:focus-visible .tip{opacity:1;transform:translate(-50%,0)}
+.strip{overflow:visible}
+.marq{padding-top:30px;margin-top:-30px}
+
+/* sections */
+section.block{padding-block:96px 0;scroll-margin-top:70px}
+.head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:30px}
+.head>div{display:flex;flex-direction:column;gap:12px}
+.head>.tablist{flex-direction:row;gap:8px;max-width:620px}
+.head h2{font-size:clamp(2.3rem,4.6vw,3.5rem)}
+.head h2 em{color:var(--gold);font-weight:600;font-style:italic}
+.head p.sub{margin:0;color:var(--muted);max-width:52ch}
+
+/* about */
+.about{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:56px;align-items:start}
+.about blockquote{margin:16px 0 0;font-family:var(--display);font-size:clamp(1.8rem,3.4vw,2.6rem);line-height:1.22;font-weight:600}
+.about blockquote em{color:var(--gold);font-style:italic}
+.about p{margin:0 0 16px;max-width:60ch}
+.skills{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.skills span{font-weight:500;font-size:.78rem;padding:6px 13px;border:1px solid var(--line);border-radius:999px;color:var(--muted);background:var(--paper)}
+
+/* tabs */
+.tablist{display:flex;flex-wrap:wrap;gap:8px}
+.tabbtn{all:unset;box-sizing:border-box;cursor:pointer;min-height:44px;display:inline-flex;align-items:center;padding:10px 18px;border-radius:999px;border:1px solid var(--line);background:var(--paper);font-size:.76rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);transition:background .2s,color .2s,border-color .2s,transform .2s var(--ease)}
+.tabbtn:hover{border-color:var(--gold);transform:translateY(-2px)}
+.tabbtn[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--paper)}
+.tabbtn:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+
+/* selectable layouts */
+.split{display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start}
+.svcsplit{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;align-items:start}
+.svcsplit .grid-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.svcsplit .pick{min-height:0;padding:16px 18px;gap:6px}
+.svcsplit .pick .name{font-size:1.32rem}
+.svcsplit .pick .short{font-size:.82rem}
+.svcsplit .aside{position:sticky;top:84px;max-height:calc(100vh - 100px);overflow-y:auto;padding:22px 26px;gap:12px;scrollbar-width:thin}
+.svcsplit .aside h3{font-size:1.75rem}
+.svcsplit .aside p{font-size:.9rem;line-height:1.6}
+.svcsplit .aside .bul div{font-size:.84rem;line-height:1.45}
+.svcsplit .aside .bul{gap:7px}
+.svcsplit .aside .fitbox{font-size:1.05rem;padding:12px 16px}
+.svcsplit .aside .gear span{font-size:.74rem;padding:4px 10px}
+.svcsplit .aside .lab{font-size:.64rem}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px 22px}
+.two>div{display:flex;flex-direction:column;gap:10px;min-width:0}
+.grid-cards{flex:999 1 560px;min-width:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.cardwrap{display:flex;flex-direction:column;min-width:0}
+.pick{all:unset;box-sizing:border-box;cursor:pointer;width:100%;text-align:left;padding:20px;min-height:140px;display:flex;flex-direction:column;gap:8px;align-items:flex-start;border:1px solid var(--line);border-radius:18px;background:var(--card)}
+.pick:hover{border-color:var(--gold);box-shadow:var(--lift)}
+.pick[aria-pressed="true"]{background:var(--paper);border-color:var(--accent);box-shadow:0 0 0 1px var(--accent),var(--lift)}
+.pick:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.pick .top{display:flex;justify-content:space-between;align-items:center;width:100%;gap:10px}
+.pick .num{font-family:var(--display);font-size:1.3rem;font-weight:700;color:var(--gold)}
+.pick .cat{font-size:.64rem;letter-spacing:.16em;text-transform:uppercase;color:var(--faint)}
+.pick .name{font-family:var(--display);font-size:1.5rem;font-weight:600;line-height:1.15}
+.pick .short{font-size:.88rem;color:var(--muted);line-height:1.45}
+.chev{display:inline-block;color:var(--accent);transition:transform .5s var(--ease)}
+.open .chev{transform:rotate(180deg)}
+.aside{flex:1 1 360px;min-width:0;position:sticky;top:84px;background:var(--paper);border:1px solid var(--accent);border-radius:22px;padding:30px;display:flex;flex-direction:column;gap:18px;box-shadow:var(--shadow)}
+.aside .meta{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:.68rem;letter-spacing:.18em;text-transform:uppercase}
+.aside .meta span:first-child{color:var(--accent)}
+.badge{color:var(--paper);background:var(--accent);padding:4px 10px;border-radius:999px;font-weight:500}
+.aside h3{font-size:2rem;line-height:1.1}
+.aside p{margin:0;line-height:1.65}
+.lab{font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--faint);font-weight:500}
+.bul{display:flex;flex-direction:column;gap:9px}
+.bul div{display:flex;gap:12px;align-items:flex-start;font-size:.93rem;line-height:1.5}
+.bul div::before{content:"";flex:none;width:7px;height:7px;background:var(--gold);transform:rotate(45deg);margin-top:.5em}
+.tick div::before{content:"\2713";width:20px;height:20px;transform:none;background:none;border:1px solid var(--gold);border-radius:50%;color:var(--accent);font-size:.7rem;display:grid;place-items:center;margin-top:.1em}
+.gear{display:flex;flex-wrap:wrap;gap:6px}
+.gear span{font-weight:500;font-size:.78rem;padding:5px 11px;border:1px solid var(--line);border-radius:999px;background:var(--card)}
+.fitbox{background:var(--soft);border-radius:14px;padding:16px 18px;font-family:var(--display);font-size:1.22rem;line-height:1.4;font-weight:600;font-style:italic}
+.note{font-size:.8rem;font-style:italic;color:var(--muted)}
+.expand{overflow:hidden;animation:expand .65s var(--ease) both}
+@keyframes expand{from{max-height:0;opacity:0;transform:translateY(-6px)}to{max-height:1400px;opacity:1;transform:none}}
+.expand>*{animation:fadeup .5s ease .2s both}
+@keyframes fadeup{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.inline{display:flex;flex-direction:column;gap:14px;background:var(--paper);border:1px solid var(--accent);border-top:0;border-radius:0 0 18px 18px;padding:18px 20px 22px;margin-top:-14px;padding-top:30px}
+
+/* experience log */
+.log{flex:1 1 340px;min-width:0;display:flex;flex-direction:column;border-left:1px solid var(--line)}
+.logbtn{all:unset;box-sizing:border-box;cursor:pointer;width:100%;text-align:left;padding:11px 18px;min-height:44px;display:flex;flex-direction:column;gap:2px;border-left:3px solid transparent;margin-left:-2px;border-radius:0 14px 14px 0;transition:background .2s,border-color .2s}
+.logbtn:hover{background:var(--card)}
+.logbtn[aria-pressed="true"]{background:var(--paper);border-left-color:var(--accent)}
+.logbtn:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.logbtn .k{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--faint)}
+.logbtn[aria-pressed="true"] .k{color:var(--accent)}
+.logbtn .o{font-family:var(--display);font-size:1.18rem;font-weight:600;line-height:1.2}
+.logbtn .r{font-family:var(--body);font-size:.78rem;color:var(--muted);line-height:1.45}
+.article{flex:999 1 520px;min-width:0;position:sticky;top:84px;max-height:calc(100vh - 100px);overflow-y:auto;scrollbar-width:thin;background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:26px 28px;display:flex;flex-direction:column;gap:12px;box-shadow:var(--shadow)}
+.article .meta{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;font-size:.68rem;letter-spacing:.18em;text-transform:uppercase}
+.article .meta span:first-child{color:var(--accent)}
+.article .meta span:last-child{color:var(--ok)}
+.article h3{font-size:1.85rem}
+.article .bul{gap:7px}
+.article .bul div{font-size:.84rem;line-height:1.5}
+.article .tick div::before{width:18px;height:18px;font-size:.62rem}
+.article .sub2{font-family:var(--body);font-size:.86rem;color:var(--muted);margin-top:-6px}
+.wins{display:flex;flex-wrap:wrap;gap:10px}
+.win{display:flex;flex-direction:column;gap:1px;padding:9px 14px;border-radius:14px;background:var(--soft);min-width:120px;flex:1 1 120px}
+.win b{font-family:var(--display);font-size:1.4rem;font-weight:700;line-height:1.1;color:var(--accent)}
+.win span{font-size:.7rem;color:var(--muted);line-height:1.35}
+.rule{height:1px;background:var(--line)}
+.logline{display:flex;flex-direction:column;gap:12px;background:var(--paper);border-left:3px solid var(--accent);margin-left:-2px;padding:4px 20px 20px}
+
+/* inventory */
+.tiles{flex:999 1 560px;min-width:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));grid-auto-flow:row dense;gap:10px}
+.tile{all:unset;box-sizing:border-box;cursor:pointer;aspect-ratio:1/1;max-width:100%;padding:10px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;border:1px solid var(--line);border-radius:16px;background:var(--card);text-align:center}
+.tile:hover{border-color:var(--gold);box-shadow:var(--lift)}
+.tile[aria-pressed="true"]{background:var(--paper);border-color:var(--accent);box-shadow:inset 0 0 26px rgba(167,128,101,.28)}
+.tile:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.tile .ti{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;background:var(--soft);color:var(--accent);transition:background .2s,color .2s,transform .3s var(--ease)}
+.tile:hover .ti{transform:scale(1.08)}
+.tile[aria-pressed="true"] .ti{background:var(--accent);color:var(--paper)}
+.tile span{font-size:.74rem;line-height:1.25;color:var(--ink);font-weight:500}
+.tilemore{grid-column:1/-1;display:flex;flex-direction:column;gap:6px;background:var(--paper);border:1px solid var(--accent);border-radius:16px;padding:16px 18px}
+.toolside{flex:1 1 300px;min-width:0;position:sticky;top:84px;background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:26px;display:flex;flex-direction:column;gap:14px;box-shadow:var(--shadow)}
+.toolside .hd{display:flex;align-items:center;gap:14px}
+.toolside .ico{flex:none;width:60px;height:60px;border-radius:18px;display:grid;place-items:center;background:var(--accent);color:var(--paper)}
+.toolside .nm{font-size:1.05rem;font-weight:600}
+.toolside p{margin:0;line-height:1.6}
+.usedin{display:flex;flex-wrap:wrap;gap:6px}
+.usedin button{all:unset;cursor:pointer;font-size:.78rem;padding:5px 11px;border-radius:999px;background:var(--soft)}
+.usedin button:hover{color:var(--accent)}
+.usedin button:focus-visible{outline:2px solid var(--accent)}
+
+/* strengths */
+.why{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.why .care{grid-column:1/-1;flex-direction:row;align-items:center;gap:22px;padding:26px 30px;background:linear-gradient(120deg,var(--paper),var(--soft));border-color:var(--gold)}
+.why .care .ico{flex:none;width:60px;height:60px;background:var(--accent);border-color:var(--accent);color:var(--paper)}
+.why .care>div{display:flex;flex-direction:column;gap:6px;min-width:0}
+.why .care .tag{font-size:.64rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:600}
+.why .care h3{font-size:1.8rem}
+.why .care p{font-size:.95rem;max-width:80ch}
+.why article{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:12px}
+.why article:hover{border-color:var(--gold);box-shadow:var(--lift)}
+.why .ico{width:48px;height:48px;border-radius:50%;border:1px solid var(--gold);display:grid;place-items:center;color:var(--accent)}
+.why h3{font-size:1.4rem}
+.why p{margin:0;font-size:.88rem;color:var(--muted);line-height:1.55}
+
+/* contact */
+.cta{position:relative;overflow:hidden;border:1px solid var(--line);border-radius:28px;background:var(--paper);padding:clamp(34px,6vw,72px) 24px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:18px}
+.cta .dots{-webkit-mask-image:radial-gradient(ellipse at 50% 40%,#000 0%,transparent 70%);mask-image:radial-gradient(ellipse at 50% 40%,#000 0%,transparent 70%)}
+.cta>*{position:relative}
+.cta .eyebrow::before{display:none}
+.cta h2{font-size:clamp(2.3rem,5vw,3.8rem);max-width:18ch}
+.cta h2 em{color:var(--gold);font-weight:600;font-style:italic}
+.cta>p{margin:0;font-size:1.05rem;color:var(--muted);max-width:56ch}
+.cta .ctas{justify-content:center}
+.contacts{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 24px;font-size:.92rem;color:var(--muted)}
+.contacts>span{display:inline-flex;align-items:center;gap:8px}
+.contacts .v{color:var(--ink);user-select:all}
+.mini{all:unset;cursor:pointer;font-size:.72rem;letter-spacing:.08em;padding:4px 10px;border-radius:999px;border:1px solid var(--line);color:var(--accent);text-decoration:none}
+.mini:hover{border-color:var(--gold)}
+.mini:focus-visible{outline:2px solid var(--accent)}
+.formcard{margin:16px auto 0;max-width:880px;background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:28px 30px;box-shadow:var(--shadow)}
+.formcard form{gap:12px}
+.formcard .formhd{margin-bottom:16px}
+.formcard .formhd h3{font-size:1.7rem}
+.formcard .pill{min-height:32px;padding:5px 12px;font-size:.76rem}
+.formhd{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:12px;margin-bottom:22px}
+.formhd h3{font-size:2rem}
+.formhd p{margin:0;color:var(--muted);font-size:.9rem}
+form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.field{display:grid;gap:6px;min-width:0}
+.field.full{grid-column:1/-1}
+label{font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);font-weight:500}
+input,textarea{width:100%;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 13px;font-size:.92rem;transition:border-color .2s,box-shadow .2s,background .2s}
+textarea{min-height:104px;resize:vertical}
+input:focus,textarea:focus{outline:none;border-color:var(--gold);background:var(--paper);box-shadow:0 0 0 4px rgba(167,128,101,.22)}
+.pills{display:flex;flex-wrap:wrap;gap:7px}
+.pill{all:unset;box-sizing:border-box;cursor:pointer;min-height:36px;display:inline-flex;align-items:center;font-size:.8rem;padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);transition:.2s}
+.pill:hover{border-color:var(--gold)}
+.pill[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--paper)}
+.pill:focus-visible{outline:2px solid var(--accent)}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.actions{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.alt{all:unset;cursor:pointer;font-size:.84rem;color:var(--accent);padding:8px 4px}
+.alt:hover{text-decoration:underline;text-underline-offset:4px}
+.alt:focus-visible{outline:2px solid var(--accent)}
+.status{grid-column:1/-1;font-size:.88rem;min-height:1.4em;margin:0}
+.status.ok{color:var(--ok)}
+.status.err{color:var(--err)}
+.sent{text-align:center;padding:24px 10px}
+.sent .t{width:64px;height:64px;margin:0 auto 16px;border-radius:50%;border:1px solid var(--gold);display:grid;place-items:center;color:var(--ok)}
+.sent h3{font-size:2.1rem;margin-bottom:8px}
+.sent p{color:var(--muted);margin:0 auto 18px;max-width:42ch}
+.sig{font-family:var(--script);font-size:2.6rem;line-height:1;color:var(--gold);margin:6px 0 0}
+.foot .sig{display:block;font-size:2.2rem;margin-bottom:8px;letter-spacing:0;text-transform:none}
+.foot{margin:44px 0 0;padding-bottom:40px;text-align:center;font-size:.7rem;letter-spacing:.24em;text-transform:uppercase;color:var(--faint)}
+
+.toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom,0px) + 22px);transform:translate(-50%,20px);background:var(--ink);color:var(--paper);padding:10px 18px;border-radius:999px;font-size:.84rem;opacity:0;transition:.3s var(--ease);pointer-events:none;z-index:30;max-width:calc(100% - 32px);text-align:center}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.mbar{display:none}
+
+@media (max-width:1100px){.bar nav{display:none}.why{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:960px){
+  .svcsplit{grid-template-columns:1fr}
+  .svcsplit .grid-cards{grid-template-columns:1fr}
+  .m-only{display:flex!important}
+  .d-only{display:none!important}
+  .watermark{display:none}
+  .hero-art{order:-1;min-height:0;padding-top:4px}
+  .hero-img{max-width:340px}
+  .statrow{margin-top:-24px}
+  .hero-text{padding-block:4px 48px}
+  .about{grid-template-columns:1fr;gap:20px}
+  .bar .book{display:none}
+  .mbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:16;gap:10px;padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid var(--line);transform:translateY(110%);transition:transform .35s var(--ease)}
+  .mbar.show{transform:none}
+  .mbar .btn{flex:1;padding:13px 12px}
+  .foot{padding-bottom:110px}
+  .toast{bottom:calc(env(safe-area-inset-bottom,0px) + 84px)}
+}
+@media (max-width:640px){
+  .why{grid-template-columns:1fr}
+  .why .care{flex-direction:column;align-items:flex-start;padding:22px}
+  .chips{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .chip{white-space:normal;font-size:.82rem}
+  .chips li:last-child{grid-column:1/-1}
+  section.block{padding-block:72px 0}
+  form{grid-template-columns:1fr}
+  .formcard{padding:26px 20px}
+  .article{padding:24px}
+  .statrow div{padding:0 12px}
+  .statrow b{font-size:1.9rem}
+  .mono span{font-size:.62rem;letter-spacing:.14em}
+  .mono b{width:36px;height:36px;font-size:.85rem}
+  .head{margin-bottom:22px}
+}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.hov:hover{transform:none}}
+</style>
+
+</head>
+<body>
+<header class="bar">
+  <div class="wrap">
+    <a class="mono" href="#top" aria-label="Jhuenel Elih Casipit, back to top"><span>Jhuenel Elih Casipit</span></a>
+    <nav aria-label="Sections" id="nav">
+      <a href="#about">About</a><a href="#services">Services</a><a href="#experience">Experience</a><a href="#tools">Tools</a><a href="#why">Strengths</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="btn solid sm hov book" href="https://calendar.app.google/F8MMHQ1r3ZxJ931S7" target="_blank" rel="noopener">Book a call</a>
+  </div>
+</header>
+
+<header class="hero" id="top">
+  <div class="dots" aria-hidden="true"></div>
+  <div class="wrap hero-in">
+    <div class="hero-text">
+      <p class="eyebrow">Portfolio &middot; Remote support, delivered with care</p>
+      <h1>Jhuenel Elih<em>Casipit</em></h1>
+      <ul class="chips" aria-label="Core skills, tap one for details">
+        <li><button type="button" class="chip key" data-sk="0" aria-haspopup="dialog" aria-expanded="false">Executive Assistance</button></li>
+        <li><button type="button" class="chip key" data-sk="1" aria-haspopup="dialog" aria-expanded="false">Lead Generation</button></li>
+        <li><button type="button" class="chip key" data-sk="2" aria-haspopup="dialog" aria-expanded="false">Calendar &amp; Inbox</button></li>
+        <li><button type="button" class="chip" data-sk="3" aria-haspopup="dialog" aria-expanded="false">CRM &amp; Pipeline</button></li>
+        <li><button type="button" class="chip" data-sk="4" aria-haspopup="dialog" aria-expanded="false">Prospect Research</button></li>
+        <li><button type="button" class="chip" data-sk="5" aria-haspopup="dialog" aria-expanded="false">Cold Email Outreach</button></li>
+        <li><button type="button" class="chip" data-sk="6" aria-haspopup="dialog" aria-expanded="false">Customer Success</button></li>
+        <li><button type="button" class="chip" data-sk="7" aria-haspopup="dialog" aria-expanded="false">Data Accuracy</button></li>
+        <li><button type="button" class="chip" data-sk="8" aria-haspopup="dialog" aria-expanded="false">AI-Powered Workflows</button></li>
+      </ul>
+      <div class="skpop" id="skpop" role="dialog" aria-modal="false" aria-labelledby="skpop-t" hidden></div>
+      <p class="lead">Reliable remote support for admin, outreach, customer support, research, and operations. I help busy founders and teams stay organized, find the right opportunities, and keep operations running smoothly, handling your work with the same care I would give my own.</p>
+      <div class="ctas">
+        <a class="btn solid hov" href="https://calendar.app.google/F8MMHQ1r3ZxJ931S7" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Schedule a call</a>
+        <a class="btn ghost hov" href="#services">Explore services <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="hero-img float"><img src="img/portrait.webp" alt="Portrait of Jhuenel Elih Casipit" width="910" height="1022" fetchpriority="high"></div>
+      <div class="statrow">
+        <div><b>10</b><span>Years of Expertise</span></div>
+        <div><b>7</b><span>Specialized Services</span></div>
+        <div><b id="toolCount">33</b><span>Business Tools Mastered</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="strip">
+    <div class="wrap stripin">
+      <span class="lbl">Worked with</span>
+      <div class="marq" id="marq"><div class="mtrack" id="mtrack"></div></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="block" id="about">
+    <div class="about">
+      <div>
+        <p class="eyebrow">01 &middot; About me</p>
+        <blockquote>Organized workflows, clear communication, and <em>consistent follow-through</em>.</blockquote>
+      </div>
+      <div>
+        <p>Detail-focused and dependable professional with 10 years of experience in executive support, lead generation, customer service, cold email operations, data management, and recruitment sourcing.</p>
+        <p>I take ownership, work with minimal supervision, and keep tasks, data, and information well-organized across time zones.</p>
+        <div class="skills">
+          <span>Executive Assistance</span><span>Administrative Support</span><span>Lead Generation</span><span>Prospect Research</span><span>Cold Email &amp; Outreach</span><span>Customer Support</span><span>Customer Success</span><span>Data Entry &amp; Records</span><span>Recruitment Sourcing</span><span>CRM &amp; Tracker Management</span><span>Email, Chat &amp; Voice Support</span><span>Content Creation Support</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="services">
+    <div class="head">
+      <div>
+        <p class="eyebrow">02 &middot; Services</p>
+        <h2>How I can <em>support</em> you</h2>
+        <p class="sub">Tap a service to see what I handle, the experience behind it, and the tools I use.</p>
+      </div>
+      <div class="tablist" role="tablist" aria-label="Filter services" id="svcTabs"></div>
+    </div>
+    <div class="svcsplit">
+      <div class="grid-cards" id="svcGrid"></div>
+      <aside class="aside d-only" id="svcAside" aria-live="polite"></aside>
+    </div>
+  </section>
+
+  <section class="block" id="experience">
+    <div class="head">
+      <div>
+        <p class="eyebrow">03 &middot; Experience</p>
+        <h2>Where I've <em>made an impact</em></h2>
+        <p class="sub">Tap a company to see the work I handled there.</p>
+      </div>
+    </div>
+    <div class="split">
+      <div class="log" id="log"></div>
+      <article class="article d-only" id="logArticle" aria-live="polite"></article>
+    </div>
+  </section>
+
+  <section class="block" id="tools">
+    <div class="head">
+      <div>
+        <p class="eyebrow">04 &middot; Toolkit</p>
+        <h2>Tools I bring <em>to the job</em></h2>
+        <p class="sub">Tap a tool to see how I use it and which services it supports.</p>
+      </div>
+      <div class="tablist" role="tablist" aria-label="Filter tools" id="toolTabs"></div>
+    </div>
+    <div class="split">
+      <div class="tiles" id="tiles"></div>
+      <aside class="toolside d-only" id="toolAside" aria-live="polite"></aside>
+    </div>
+  </section>
+
+  <section class="block" id="why">
+    <div class="head">
+      <div>
+        <p class="eyebrow">05 &middot; Strengths</p>
+        <h2>Why clients <em>hire me</em></h2>
+      </div>
+    </div>
+    <div class="why">
+      <article class="hov care"><span class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.6-7 10-7 10z"/></svg></span><div><span class="tag">How I work</span><h3>Works with genuine care</h3><p>I take ownership of your business, your clients, and your time as if they were my own. Every email, record, and follow-up gets real attention, so the details are handled thoughtfully, nothing is rushed or overlooked, and you have one less thing to worry about.</p></div></article>
+      <article class="hov"><span class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/></svg></span><h3>Gets things done</h3><p>I take ownership, work with minimal supervision, and consistently deliver high-quality results on time.</p></article>
+      <article class="hov"><span class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 5h16v11H8l-4 4z"/></svg></span><h3>Reliable communication</h3><p>Clear, proactive, and responsive communication across different time zones.</p></article>
+      <article class="hov"><span class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 20V14M10 20V10M16 20V6M3 9l6-5 4 3 7-5"/></svg></span><h3>Helps you grow</h3><p>I find quality leads, support outreach campaigns, and help improve processes so you can focus on bigger goals.</p></article>
+      <article class="hov"><span class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 9l1.5 1.5L14 7M9 15h6"/></svg></span><h3>Organized &amp; detail-focused</h3><p>I keep tasks, data, and information well-organized with accurate records and consistent follow-through.</p></article>
+      <article class="hov"><span class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 00-3.5 10.9V16h7v-2.1A6 6 0 0012 3z"/></svg></span><h3>Adaptable &amp; solution-oriented</h3><p>I quickly learn new tools, processes, and industries, and look for practical ways to make work easier.</p></article>
+    </div>
+  </section>
+
+  <section class="block" id="contact">
+    <div class="cta">
+      <div class="dots" aria-hidden="true"></div>
+      <p class="eyebrow">Next step</p>
+      <h2>Let's talk about what you need <em>off your plate</em>.</h2>
+      <p>Book a short intro call. We'll walk through your priorities, the tasks taking up your week, and how I can take care of them from the first week. The booking page shows my open times in your own time zone.</p>
+      <div class="ctas">
+        <a class="btn solid hov" href="https://calendar.app.google/F8MMHQ1r3ZxJ931S7" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Schedule a call</a>
+        <a class="btn ghost hov" href="#message">Send a message</a>
+      </div>
+      <div class="contacts">
+        <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><span class="v">elihcasipit@gmail.com</span><button class="mini" type="button" data-copy="elihcasipit@gmail.com">Copy</button></span>
+        <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 4h4l2 5-3 2a11 11 0 005 5l2-3 5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg><span class="v">+63 956 269 3904</span><a class="mini" href="https://wa.me/639562693904" target="_blank" rel="noopener">WhatsApp</a></span>
+        <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0119 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span id="tz">Philippines &middot; GMT+8</span></span>
+      </div>
+    </div>
+
+    <div class="formcard" id="message">
+      <div class="formhd">
+        <div><p class="eyebrow">Send a message</p><h3 style="margin-top:10px">Tell me what you need</h3></div>
+        <p>Your message goes straight to my inbox, and I reply by email.</p>
+      </div>
+      <form id="msg" novalidate>
+        <div class="field"><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
+        <div class="field"><label for="f-email">Your email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+        <div class="field full"><label for="f-company">Company (optional)</label><input id="f-company" name="company" autocomplete="organization"></div>
+        <div class="field full"><span class="lab" id="svc-l">I need help with</span><div class="pills" id="pills" role="group" aria-labelledby="svc-l"></div></div>
+        <div class="field full"><label for="f-msg">Message</label><textarea id="f-msg" name="message" placeholder="A few lines about your team, the tasks you want off your plate, and your timeline." required></textarea></div>
+        <input class="hp" id="f-hp" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <p class="status" id="status" role="status"></p>
+        <div class="actions">
+          <button class="btn solid hov" type="submit" id="sendBtn">Send message <span aria-hidden="true">&rarr;</span></button>
+          <button class="alt" type="button" id="copyMsg">Copy message instead</button>
+        </div>
+      </form>
+    </div>
+    <p class="foot"><span class="sig" aria-hidden="true">Jhuenel Elih Casipit</span>&copy; 2026 Jhuenel Elih Casipit &middot; Executive Assistant &amp; Lead Generation Specialist</p>
+  </section>
+</main>
+
+<div class="mbar" id="mbar">
+  <a class="btn solid" href="https://calendar.app.google/F8MMHQ1r3ZxJ931S7" target="_blank" rel="noopener">Book a call</a>
+  <a class="btn ghost" href="#message">Message</a>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+var EMAIL="elihcasipit@gmail.com";
+var LIVE=/^https?:$/.test(location.protocol);
+var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+function $(id){return document.getElementById(id)}
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+function mobile(){return innerWidth<=960}
+function toast(t){var el=$('toast');el.textContent=t;el.classList.add('show');clearTimeout(toast.t);toast.t=setTimeout(function(){el.classList.remove('show')},2600)}
+function bul(a,cls){return '<div class="bul'+(cls?' '+cls:'')+'">'+a.map(function(x){return '<div>'+esc(x)+'</div>'}).join('')+'</div>'}
+function gear(a){return '<div class="gear">'+a.map(function(x){return '<span>'+esc(x)+'</span>'}).join('')+'</div>'}
+
+/* ---------- data ---------- */
+var SV=[
+ {id:"executive-assistance",n:"01",short:"Executive Assistance",cat:"Operations",name:"Executive Assistance & Admin Support",line:"Organized, dependable support for busy founders and teams.",
+  profile:"I provide reliable administrative support that helps leaders stay organized, follow through on priorities, and keep daily operations moving smoothly. My experience includes task coordination, documentation, progress tracking, and remote support across fast-paced teams.",
+  support:["Task coordination and follow-ups","CEO and team support","Documentation and recordkeeping","End-of-day reporting and progress tracking","SOP adherence and workflow support","Remote admin support and communication"],
+  exp:["Supported CEO and agency operations at GoViral","Coordinated priorities, follow-ups, and documentation","Prepared updates and tracked work progress","Worked within structured SOPs and remote workflows"],
+  tools:["Google Workspace","Google Sheets","Gmail","Slack","Asana","Trello","Clockify","Zoom","Google Meet","Calendly","ChatGPT"],
+  fit:"Founders, executives, startups, and remote teams looking for dependable day-to-day administrative support."},
+ {id:"lead-generation",n:"02",short:"Lead Generation",cat:"Growth",name:"Lead Generation & Prospect Research",line:"Quality lead lists and the decision-makers behind them.",
+  profile:"I help businesses find relevant prospects through organized research, lead sourcing, and data verification. My experience includes identifying decision-makers, qualifying leads, enriching contact data, and maintaining accurate trackers for outreach and follow-up.",
+  support:["B2B prospect research","LinkedIn prospecting and decision-maker identification","Lead sourcing and qualification","Lead enrichment and data verification","CRM and tracker updates","Sales pipeline support and follow-up coordination"],
+  exp:["Researched DTC brands and decision-makers at GoViral","Enriched lead records and maintained campaign trackers","Qualified leads based on fit and outreach potential","Supported lead handoff and pipeline coordination"],
+  tools:["LinkedIn Sales Navigator","Meta Ad Library","ContactOut","Hunter.io","Google Sheets","Pipedrive","Dripify","ChatGPT"],
+  fit:"Agencies, founders, sales teams, and startups that need quality lead lists and organized prospect research."},
+ {id:"cold-email",n:"03",short:"Cold Email & Outreach",cat:"Growth",name:"Cold Email & Outreach Operations",line:"Campaigns, replies, and follow-up kept on track.",
+  profile:"I support outreach operations by helping manage campaigns, update copy, review replies, qualify leads, and keep follow-up workflows organized. My experience includes campaign administration, subject-line updates, tracking positive replies, and assisting with deliverability troubleshooting.",
+  support:["Email campaign coordination","Email sequence and copy updates","Subject-line revisions","Reply handling and lead qualification","Positive-reply tracking and handoff support","Bounce and deliverability issue investigation"],
+  exp:["Worked with Instantly campaigns and reply management at GoViral","Updated email versions and subject lines across campaigns","Tracked qualified leads and created follow-up tasks","Investigated bounce issues and coordinated troubleshooting"],
+  tools:["Instantly","Dripify","Gmail","Google Sheets","Pipedrive","Slack","Asana","ChatGPT"],
+  fit:"Agencies, lead generation teams, and founders who need dependable support for outbound email operations."},
+ {id:"customer-support",n:"04",short:"Customer Support",cat:"Client Care",name:"Customer Support & Customer Success",line:"Calm, clear help across email, chat, and voice.",
+  profile:"I have several years of experience supporting customers across technical support, e-commerce, email, chat, and voice channels. My work has focused on resolving concerns efficiently, documenting issues clearly, and helping maintain strong customer satisfaction.",
+  support:["Email, chat, and voice support","Technical troubleshooting","Order, account, return, and refund assistance","Issue resolution and escalation handling","Product and service inquiries","Customer documentation and case management"],
+  exp:["Supported Comcast in technical support at Concentrix","Handled Macy's and Bloomingdale's customer service and back-office work","Provided remote support through LTVPlus and Aidey","Worked across e-commerce, product, and account support workflows"],
+  tools:["Gmail","Outlook","Zendesk","LiveChat","Zoho CRM","Shopify","Google Workspace","ChatGPT"],
+  fit:"Businesses looking for reliable customer support across email, chat, voice, or e-commerce service channels."},
+ {id:"data-entry",n:"05",short:"Data Entry & Research",cat:"Operations",name:"Data Entry, Research & Records",line:"Accurate records, clean trackers, careful handling.",
+  profile:"I provide accurate data and record support with a strong focus on detail, organization, and confidentiality. My experience includes high-volume data entry, record review, spreadsheet management, reporting support, and careful handling of sensitive information.",
+  support:["High-volume data entry","Data verification and quality checks","Spreadsheet and tracker management","Research and information gathering","Reporting and record retrieval support","Sensitive-record handling and documentation"],
+  exp:["Processed and reviewed patient files at FLEX Medical","Supported EHR-related record workflows and reporting","Maintained high accuracy in data handling","Managed organized records across support and operations roles"],
+  tools:["Google Sheets","Excel","Microsoft Office","Google Workspace","EHR systems","Gmail","ChatGPT"],
+  fit:"Healthcare support teams, remote admin teams, and businesses needing accurate data entry and record management."},
+ {id:"recruitment",n:"06",short:"Recruitment Sourcing",cat:"Growth",name:"Recruitment & Candidate Sourcing",line:"Qualified candidate lists, ready for outreach.",
+  profile:"I support recruitment tasks by sourcing candidates, reviewing profiles, organizing outreach lists, and maintaining clean hiring trackers. My experience includes screening based on set criteria and preparing qualified candidate lists for outreach workflows.",
+  support:["Candidate sourcing","Profile screening and review","Candidate qualification against criteria","Test case review","Europe-based and international sourcing","Recruitment tracker maintenance","Candidate-list preparation","Outreach-list organization"],
+  exp:["Sourced Media Buyers, Creative Strategists, and Video Editors for hiring at GoViral","Reviewed candidate test cases to confirm skills before interviews","Sourced talent across Europe and internationally","Reviewed profiles and maintained candidate trackers","Qualified suitable profiles based on role criteria","Prepared organized lists for outreach uploads"],
+  tools:["LinkedIn","Google Sheets","Dripify","Slack","Asana","Gmail","ChatGPT"],
+  fit:"Founders, recruiters, and teams that need support building qualified candidate lists and organizing sourcing workflows."},
+ {id:"content-creation",n:"07",short:"Content Creation",cat:"Creative",name:"Content Creation & Social Media",line:"Simple branded visuals and short-form content.",
+  profile:"I create simple visual and content assets that support online presence and communication. My experience includes short-form video editing, social media posting, basic content planning, and creating graphics using beginner-friendly creative tools.",
+  support:["Short-form video editing","Canva graphics and simple layouts","Social media content support","Reels and basic video assets","Platform posting and publishing","Basic content organization and planning"],
+  exp:["Created personal content and affiliate posts","Produced short-form content for online platforms","Used Canva and CapCut for visuals and editing","Supported simple digital content creation tasks"],
+  tools:["Canva","CapCut","Facebook","Instagram","TikTok","YouTube","Google Workspace","ChatGPT"],
+  fit:"Clients who need basic creative support, simple visual content, and polished social media assets.",
+  note:"Experience in this area comes primarily from personal projects and content creation work."}
+];
+var EX=[
+ {id:"goviral",org:"GoViral",role:"Executive Assistant to the CEO, Operations & Lead Generation Specialist",type:"Performance creative agency · Remote",dates:"Apr 2025 to Aug 2026",
+  wins:[["CEO","Direct executive support"],["DTC","Prospect research and outreach"],["Daily","Progress reports to the CEO"]],
+  obj:["Provided executive and administrative support to the CEO, managing priorities, follow-ups, documentation, and daily operations","Researched and qualified DTC and e-commerce companies using LinkedIn Sales Navigator, Meta Ad Library, company websites, and other public sources","Built targeted prospect lists and identified key decision-makers, including CEOs, Founders, CMOs, Marketing Directors, and Growth Leaders","Verified and enriched lead data with ContactOut and Hunter.io while keeping CRM, Google Sheets, and campaign records accurate","Supported LinkedIn outreach through Dripify and cold email campaigns in Instantly, managing pipelines, replies, lead statuses, and follow-ups","Collaborated with the CEO on Slack, followed SOPs, prepared daily progress reports, and improved workflow accuracy through quality checks","Assisted with recruitment by sourcing candidates, reviewing profiles, managing recruitment trackers, and coordinating follow-ups"]},
+ {id:"flex",org:"Flex Medical",role:"Medical Data Specialist",type:"Healthcare · Remote",dates:"Dec 2023 to Apr 2025",
+  wins:[["1,500+","Patient records each month"],["99 to 100%","Record accuracy"],["40%","Faster data retrieval"]],
+  obj:["Managed and updated more than 1,500 patient records each month with 99 to 100% accuracy, following HIPAA requirements and strict data-quality standards","Reviewed sensitive medical information, corrected record inconsistencies, and completed high-volume processing within demanding deadlines","Developed an automated reporting process that reduced data retrieval time by 40% and improved access to recurring operational information","Maintained organized digital records and documentation while working independently with minimal supervision"]},
+ {id:"aidey",org:"Aidey",role:"Freelance Email & Chat Support Specialist",type:"Customer support · Remote",dates:"Jul 2022 to Nov 2023",
+  wins:[["50+","Inquiries handled daily"],["95%","Customer satisfaction"],["30%","Fewer escalations"]],
+  obj:["Handled more than 50 customer inquiries daily through email and live chat while maintaining a 95% customer satisfaction rate","Reduced escalations by 30% through accurate first-contact resolution, clear explanations, and complete case documentation","Maintained accurate customer records, coordinated with internal teams, and shared recurring feedback that improved workflows and usability"]},
+ {id:"pelicen",org:"Pelicen Incorporated",role:"Lead Manager",type:"Sales operations · Remote",dates:"Oct 2020 to Feb 2022",
+  wins:[["50+","Client accounts managed"],["25%","Higher client retention"],["15%","Better lead conversion"]],
+  obj:["Managed more than 50 client accounts, maintained lead records, and coordinated follow-ups across active sales opportunities","Improved client retention by 25% through organized communication, timely follow-through, and consistent account support","Increased lead-to-client conversion by 15% and supported a 20% improvement in team sales performance by strengthening CRM organization, scripts, and documented workflows"]},
+ {id:"ltvplus",org:"LTVPlus LLC",role:"Customer Success Representative",type:"E-commerce support · Remote",dates:"Apr 2019 to Feb 2020",
+  wins:[["40%","Faster response efficiency"],["Multilingual","Support team member"]],
+  obj:["Supported e-commerce customers through live chat, resolving product and account concerns and keeping accurate interaction records","Managed customer data and case notes with strong attention to detail while meeting response-time and service-quality targets","Selected for the multilingual support team, helping improve response efficiency by 40% while coordinating complex escalations with internal teams"]},
+ {id:"macys",org:"Concentrix Philippines",role:"Customer Service & Back Office Agent, Macy's and Bloomingdale's",type:"Retail accounts · On-site",dates:"Jun 2017 to Mar 2019",
+  wins:[["50+","Customers assisted daily"],["95%","Satisfaction rating"],["15%","More positive reviews"]],
+  obj:["Assisted more than 50 customers daily through chat, email, and phone while maintaining a 95% satisfaction rating","Resolved billing, shipping, order, and product concerns accurately, reducing avoidable escalations by 30%","Completed back-office updates, handled sensitive account data responsibly, and contributed to workflow improvements behind a 15% increase in positive reviews"]},
+ {id:"comcast",org:"Concentrix Philippines",role:"Technical Support Representative, Comcast",type:"Technical support · On-site",dates:"May 2016 to May 2017",
+  wins:[["60+","Technical issues solved daily"],["90%+","First-contact resolution"],["4.8/5","Customer satisfaction"]],
+  obj:["Resolved more than 60 technical concerns per day and maintained a 90%+ first-contact resolution rate through structured troubleshooting","Diagnosed service and equipment issues, reducing repeat contacts by 25% and improving the overall customer experience","Provided clear technical guidance and complete case documentation across support channels while maintaining a 4.8/5 customer satisfaction score"]}
+];
+var CO=[["GoViral","goviral"],["Flex Medical","flex"],["Aidey","aidey"],["Pelicen","pelicen"],["LTVPlus","ltvplus"],["Concentrix","macys"],["Comcast","comcast"],["Macy's","macys"],["Bloomingdale's","macys"]];
+var IC={
+ mail:'<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/>',
+ apps:'<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
+ chat:'<path d="M4 5h16v11H9l-5 4z"/><path d="M8 10h8M8 13h5"/>',
+ check:'<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 9l2 2 4-4M8 16h8"/>',
+ board:'<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16M15 4v16"/><path d="M5.5 8h1.5M11.5 8h1.5M17 8h1.5M11.5 11h1.5"/>',
+ cal:'<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><path d="M8 14h3v3H8z"/>',
+ clock:'<circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 3h6"/>',
+ video:'<rect x="3" y="6" width="13" height="12" rx="2"/><path d="M16 10l5-3v10l-5-3z"/>',
+ doc:'<path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 12h7M9 15h7M9 18h4"/>',
+ spark:'<path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/>',
+ compass:'<circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/>',
+ network:'<circle cx="12" cy="6" r="2.5"/><circle cx="5.5" cy="18" r="2.5"/><circle cx="18.5" cy="18" r="2.5"/><path d="M10.8 8.2L6.8 15.8M13.2 8.2l4 7.6M8 18h8"/>',
+ contact:'<rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="11" r="2.5"/><path d="M5.5 17c.8-2 2-3 3.5-3s2.7 1 3.5 3M15 9h3M15 13h3"/>',
+ at:'<circle cx="12" cy="12" r="3.5"/><path d="M15.5 12v1.5a2.5 2.5 0 005 0V12a8.5 8.5 0 10-3.3 6.7"/>',
+ megaphone:'<path d="M3 10v4h4l8 5V5L7 10z"/><path d="M18 9a4 4 0 010 6"/>',
+ send:'<path d="M21 3L10 14M21 3l-7 18-4-7-7-4z"/>',
+ flow:'<circle cx="5" cy="6" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="18" r="2"/><path d="M6.5 7.5l4 3M13.5 13.5l4 3"/>',
+ funnel:'<path d="M3 4h18l-7 8v6l-4 2v-8z"/>',
+ ticket:'<path d="M3 8a2 2 0 002-2h14a2 2 0 002 2v2a2 2 0 000 4v2a2 2 0 00-2 2H5a2 2 0 00-2-2v-2a2 2 0 000-4z"/><path d="M14 6v12" stroke-dasharray="2 2"/>',
+ bubble:'<path d="M12 4c5 0 9 3.1 9 7s-4 7-9 7c-1 0-2-.1-3-.4L4 20l1.5-4C4 14.8 3 13 3 11c0-3.9 4-7 9-7z"/><circle cx="8.5" cy="11" r=".8"/><circle cx="12" cy="11" r=".8"/><circle cx="15.5" cy="11" r=".8"/>',
+ users:'<circle cx="9" cy="8" r="3"/><path d="M3 20c.8-3.4 3.2-5 6-5s5.2 1.6 6 5"/><circle cx="17" cy="9" r="2.3"/><path d="M16 14.5c2.6.2 4.4 1.8 5 4.5"/>',
+ bag:'<path d="M5 8h14l-1 13H6z"/><path d="M9 8V6a3 3 0 016 0v2"/>',
+ sheet:'<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M3 14h18M9 4v16M15 4v16"/>',
+ chart:'<rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 16v-4M11 16V8M15 16v-6"/>',
+ medical:'<path d="M6 3h9l4 4v14H6z"/><path d="M12 10v6M9 13h6"/>',
+ palette:'<path d="M12 3a9 9 0 100 18c1.2 0 2-.8 2-1.8 0-1.2-1-1.6-1-2.6 0-.9.7-1.6 1.6-1.6H17a4 4 0 004-4C21 6.6 17 3 12 3z"/><circle cx="7.5" cy="11" r="1.2"/><circle cx="10" cy="7" r="1.2"/><circle cx="15" cy="7" r="1.2"/>',
+ scissors:'<circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M8.2 7.8L20 18M8.2 16.2L20 6"/>',
+ thumb:'<path d="M7 11v9H4v-9zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9H19a2 2 0 012 2.3l-1.2 6.8a2 2 0 01-2 1.9H7"/>',
+ camera:'<rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".8"/>',
+ note:'<path d="M9 18V5l11-2v13"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="17.5" cy="16" r="2.5"/>',
+ play:'<rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="M10 9l5 3-5 3z"/>'
+};
+var TI={"Google Workspace":"apps","Gmail":"mail","Outlook":"mail","Slack":"chat","Asana":"check","Trello":"board","Calendly":"cal","Clockify":"clock","Zoom":"video","Google Meet":"video","Microsoft Office":"doc","ChatGPT":"spark","LinkedIn Sales Navigator":"compass","LinkedIn":"network","ContactOut":"contact","Hunter.io":"at","Meta Ad Library":"megaphone","Instantly":"send","Dripify":"flow","Pipedrive":"funnel","Zendesk":"ticket","LiveChat":"bubble","Zoho CRM":"users","Shopify":"bag","Google Sheets":"sheet","Excel":"chart","EHR systems":"medical","Canva":"palette","CapCut":"scissors","Facebook":"thumb","Instagram":"camera","TikTok":"note","YouTube":"play"};
+function icon(name,size){return '<svg width="'+(size||22)+'" height="'+(size||22)+'" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+(IC[TI[name]]||IC.apps)+'</svg>'}
+var TL=[
+ ["Google Workspace","GW","Productivity","Docs, Drive, Calendar and Meet: the home base for daily admin, documentation and reporting."],
+ ["Gmail","Gm","Productivity","Inbox handling, client communication and outreach replies."],
+ ["Outlook","Ol","Productivity","Email and calendar for teams that run on Microsoft."],
+ ["Slack","Sl","Productivity","Day-to-day team communication, updates and quick handoffs."],
+ ["Asana","As","Productivity","Task tracking, follow-ups and project progress."],
+ ["Trello","Tr","Productivity","Boards for task coordination and simple workflows."],
+ ["Calendly","Ca","Productivity","Scheduling meetings without the back-and-forth."],
+ ["Clockify","Ck","Productivity","Time tracking for transparent, accountable remote work."],
+ ["Zoom","Zm","Productivity","Meetings, client calls and team check-ins."],
+ ["Google Meet","GM","Productivity","Video calls inside Google Workspace."],
+ ["Microsoft Office","MO","Productivity","Documents, spreadsheets and reports."],
+ ["ChatGPT","AI","Productivity","Drafting, summarizing and speeding up research and repetitive writing."],
+ ["LinkedIn Sales Navigator","SN","Sales & Outreach","Finding and qualifying decision-makers for B2B prospect lists."],
+ ["LinkedIn","Li","Sales & Outreach","Prospecting and sourcing candidates by role criteria."],
+ ["ContactOut","CO","Sales & Outreach","Finding and verifying contact details for leads."],
+ ["Hunter.io","Hu","Sales & Outreach","Finding and verifying business email addresses."],
+ ["Meta Ad Library","MA","Sales & Outreach","Researching brands by the ads they run, for DTC prospect research."],
+ ["Instantly","In","Sales & Outreach","Running cold email campaigns, managing replies and checking deliverability."],
+ ["Dripify","Dr","Sales & Outreach","LinkedIn outreach sequences and outreach-list uploads."],
+ ["Pipedrive","Pd","Sales & Outreach","CRM updates, pipeline tracking and lead handoff."],
+ ["Zendesk","Zd","Support & CRM","Ticket handling, case documentation and escalations."],
+ ["LiveChat","LC","Support & CRM","Real-time chat support for customers."],
+ ["Zoho CRM","Zo","Support & CRM","Customer records and case management."],
+ ["Shopify","Sh","Support & CRM","Order, return and refund support for e-commerce stores."],
+ ["Google Sheets","GS","Data","Lead lists, trackers and reports, kept clean and accurate."],
+ ["Excel","Ex","Data","Spreadsheets, data checks and reporting."],
+ ["EHR systems","EH","Data","Electronic health records for patient-file processing and reporting."],
+ ["Canva","Cv","Creative","Graphics, simple layouts and social visuals."],
+ ["CapCut","CC","Creative","Short-form video editing for reels and social posts."],
+ ["Facebook","Fb","Creative","Posting and publishing social content."],
+ ["Instagram","Ig","Creative","Posts and reels for brand presence."],
+ ["TikTok","TT","Creative","Short-form video content."],
+ ["YouTube","YT","Creative","Video publishing and short-form content."]
+].map(function(r){return {name:r[0],mono:r[1],cat:r[2],use:r[3]}});
+
+/* ---------- state ---------- */
+var st={svcFilter:"All",svc:"executive-assistance",svcOpen:false,ex:"goviral",exOpen:false,toolFilter:"All",tool:"Google Workspace",toolOpen:false};
+
+/* ---------- services ---------- */
+function tabs(el,labels,cur,onPick){
+  el.innerHTML=labels.map(function(l){return '<button type="button" class="tabbtn" role="tab" aria-selected="'+(l===cur)+'" data-l="'+esc(l)+'">'+esc(l)+'</button>'}).join('');
+  el.querySelectorAll('button').forEach(function(b){b.onclick=function(){onPick(b.dataset.l)}});
+}
+function svcDetail(s,inline){
+  return (inline?'':'<div class="meta"><span>Service '+s.n+' &middot; '+esc(s.cat)+'</span><span class="badge">Available</span></div><h3>'+esc(s.name)+'</h3>')+
+   '<p>'+esc(s.profile)+'</p>'+
+   (inline?'<span class="lab">What I can support</span>'+bul(s.support,'tick')+'<span class="lab">Relevant experience</span>'+bul(s.exp)
+     :'<div class="two"><div><span class="lab">What I can support</span>'+bul(s.support,'tick')+'</div><div><span class="lab">Relevant experience</span>'+bul(s.exp)+'</div></div>')+
+   '<span class="lab">Tools I use</span>'+gear(s.tools)+
+   '<span class="lab">Best fit for</span><div class="fitbox">'+esc(s.fit)+'</div>'+
+   (s.note?'<span class="note">'+esc(s.note)+'</span>':'')+
+   '<a class="btn solid sm hov" style="align-self:flex-start" href="https://calendar.app.google/F8MMHQ1r3ZxJ931S7" target="_blank" rel="noopener">Book a call about this</a>';
+}
+function renderSvc(){
+  tabs($('svcTabs'),["All","Operations","Growth","Client Care","Creative"],st.svcFilter,function(l){st.svcFilter=l;var vis=SV.filter(function(s){return l==="All"||s.cat===l});if(!vis.some(function(s){return s.id===st.svc}))st.svc=vis[0].id;st.svcOpen=false;renderSvc()});
+  var list=SV.filter(function(s){return st.svcFilter==="All"||s.cat===st.svcFilter});
+  $('svcGrid').innerHTML=list.map(function(s){
+    var on=s.id===st.svc,open=on&&st.svcOpen&&mobile();
+    return '<div class="cardwrap'+(open?' open':'')+'"><button type="button" class="pick hov" aria-pressed="'+on+'" aria-expanded="'+open+'" data-id="'+s.id+'">'+
+      '<span class="top"><span class="num">'+s.n+'</span><span style="display:flex;align-items:center;gap:10px"><span class="cat">'+esc(s.cat)+'</span><span class="chev m-only" aria-hidden="true">&#9662;</span></span></span>'+
+      '<span class="name">'+esc(s.name)+'</span><span class="short">'+esc(s.line)+'</span></button>'+
+      (open?'<div class="inline expand">'+svcDetail(s,true)+'</div>':'')+'</div>';
+  }).join('');
+  $('svcGrid').querySelectorAll('.pick').forEach(function(b){b.onclick=function(){
+    var id=b.dataset.id;if(st.svc===id)st.svcOpen=!st.svcOpen;else{st.svc=id;st.svcOpen=true}
+    renderSvc();try{history.replaceState(null,'','#'+id)}catch(e){}
+  }});
+  var s=SV.filter(function(x){return x.id===st.svc})[0]||SV[0];
+  $('svcAside').innerHTML=svcDetail(s,false);
+  if(!reduce){var a=$('svcAside');a.classList.remove('expand');void a.offsetWidth}
+}
+
+/* ---------- experience ---------- */
+function wins(x){return '<div class="wins">'+x.wins.map(function(w){return '<div class="win"><b>'+esc(w[0])+'</b><span>'+esc(w[1])+'</span></div>'}).join('')+'</div>'}
+function renderEx(){
+  $('log').innerHTML=EX.map(function(x){
+    var on=x.id===st.ex,open=on&&st.exOpen&&mobile();
+    return '<div class="'+(open?'open':'')+'"><button type="button" class="logbtn" aria-pressed="'+on+'" aria-expanded="'+open+'" data-id="'+x.id+'">'+
+      '<span class="k"><span>'+esc(x.dates)+'</span><span class="chev m-only" aria-hidden="true">&#9662;</span></span>'+
+      '<span class="o">'+esc(x.org)+'</span><span class="r">'+esc(x.role)+'</span></button>'+
+      (open?'<div class="logline expand"><span class="lab">'+esc(x.type)+'</span>'+wins(x)+'<span class="lab" style="color:var(--ok)">&#10003; What I handled</span>'+bul(x.obj,'tick')+'</div>':'')+'</div>';
+  }).join('');
+  $('log').querySelectorAll('.logbtn').forEach(function(b){b.onclick=function(){var id=b.dataset.id;if(st.ex===id)st.exOpen=!st.exOpen;else{st.ex=id;st.exOpen=true}renderEx()}});
+  var x=EX.filter(function(e){return e.id===st.ex})[0]||EX[0];
+  $('logArticle').innerHTML='<div class="meta"><span>'+esc(x.type)+'</span><span>'+esc(x.dates)+'</span></div><h3>'+esc(x.org)+'</h3><span class="sub2">'+esc(x.role)+'</span>'+wins(x)+'<div class="rule"></div><span class="lab">What I handled</span>'+bul(x.obj,'tick');
+}
+function goEx(id){st.ex=id;st.exOpen=true;renderEx();$('experience').scrollIntoView({behavior:reduce?'auto':'smooth'})}
+(function(){
+  var one=CO.map(function(c){var x=EX.filter(function(e){return e.id===c[1]})[0];return '<button type="button" class="co" data-ex="'+c[1]+'">'+esc(c[0])+'<span class="tip">'+esc(x.role.split(',')[0])+' &middot; view</span></button>'}).join('');
+  $('mtrack').innerHTML=one+one.replace(/<button type="button" class="co"/g,'<button type="button" class="co" tabindex="-1" aria-hidden="true"');
+  $('mtrack').querySelectorAll('.co').forEach(function(b){b.onclick=function(){goEx(b.dataset.ex)}});
+})();
+/* ---------- tools ---------- */
+function usedIn(name){return SV.filter(function(s){return s.tools.indexOf(name)>-1})}
+function toolDetail(t){
+  var u=usedIn(t.name);
+  return '<p>'+esc(t.use)+'</p>'+(u.length?'<span class="lab">Used in</span><div class="usedin">'+u.map(function(s){return '<button type="button" data-go="'+s.id+'">'+esc(s.short)+'</button>'}).join('')+'</div>':'');
+}
+function wireGo(root){root.querySelectorAll('[data-go]').forEach(function(b){b.onclick=function(){st.svcFilter="All";st.svc=b.dataset.go;st.svcOpen=true;renderSvc();$('services').scrollIntoView({behavior:reduce?'auto':'smooth'})}})}
+function renderTools(){
+  tabs($('toolTabs'),["All","Productivity","Sales & Outreach","Support & CRM","Data","Creative"],st.toolFilter,function(l){st.toolFilter=l;var vis=TL.filter(function(t){return l==="All"||t.cat===l});if(!vis.some(function(t){return t.name===st.tool}))st.tool=vis[0].name;st.toolOpen=false;renderTools()});
+  var list=TL.filter(function(t){return st.toolFilter==="All"||t.cat===st.toolFilter});
+  var h='';
+  list.forEach(function(t){
+    var on=t.name===st.tool,open=on&&st.toolOpen&&mobile();
+    h+='<button type="button" class="tile hov" aria-pressed="'+on+'" aria-expanded="'+open+'" data-n="'+esc(t.name)+'"><span class="ti">'+icon(t.name)+'</span><span>'+esc(t.name)+'</span></button>';
+    if(open)h+='<div class="tilemore expand"><span style="font-weight:500">'+esc(t.name)+' <span class="lab">&middot; '+esc(t.cat)+'</span></span>'+toolDetail(t)+'</div>';
+  });
+  $('tiles').innerHTML=h;
+  $('tiles').querySelectorAll('.tile').forEach(function(b){b.onclick=function(){var n=b.dataset.n;if(st.tool===n)st.toolOpen=!st.toolOpen;else{st.tool=n;st.toolOpen=true}renderTools()}});
+  var t=TL.filter(function(x){return x.name===st.tool})[0]||TL[0];
+  $('toolAside').innerHTML='<div class="hd"><span class="ico">'+icon(t.name,28)+'</span><div><div class="nm">'+esc(t.name)+'</div><span class="lab">'+esc(t.cat)+'</span></div></div>'+toolDetail(t);
+  wireGo($('toolAside'));wireGo($('tiles'));
+}
+$('toolCount').textContent=TL.length;
+
+/* ---------- init + hash ---------- */
+function fromHash(){var h=location.hash.slice(1);if(SV.some(function(s){return s.id===h})){st.svc=h;st.svcFilter="All";st.svcOpen=true;return true}return false}
+var deep=fromHash();
+renderSvc();renderEx();renderTools();
+if(deep)setTimeout(function(){$('services').scrollIntoView()},60);
+var wasMobile=mobile();addEventListener('resize',function(){if(mobile()!==wasMobile){wasMobile=mobile();renderSvc();renderEx();renderTools()}});
+
+/* nav + mobile bar */
+var navLinks=[].slice.call(document.querySelectorAll('#nav a')),mbar=$('mbar');
+if('IntersectionObserver' in window){
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)navLinks.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id)})})},{rootMargin:'-45% 0px -50% 0px'});
+  ['about','services','experience','tools','why','contact'].forEach(function(id){io.observe($(id))});
+}
+function onScroll(){var c=$('contact').getBoundingClientRect();mbar.classList.toggle('show',scrollY>480&&!(c.top<innerHeight*.8))}
+addEventListener('scroll',onScroll,{passive:true});onScroll();
+
+/* local time */
+(function(){try{var ph=new Date().toLocaleTimeString([], {timeZone:'Asia/Manila',hour:'numeric',minute:'2-digit'});$('tz').textContent='Philippines · GMT+8 · '+ph+' now'}catch(e){}})();
+
+/* copy */
+function copyText(t,okMsg){
+  function fb(){var ta=document.createElement('textarea');ta.value=t;ta.setAttribute('readonly','');ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();var ok=false;try{ok=document.execCommand('copy')}catch(e){}ta.remove();toast(ok?okMsg:'Press and hold the text to copy it')}
+  try{navigator.clipboard.writeText(t).then(function(){toast(okMsg)},fb)}catch(e){fb()}
+}
+document.querySelectorAll('[data-copy]').forEach(function(b){b.addEventListener('click',function(){copyText(b.dataset.copy,'Copied')})});
+
+/* form */
+var picked=[];
+SV.forEach(function(s){var p=document.createElement('button');p.type='button';p.className='pill';p.textContent=s.short;p.setAttribute('aria-pressed','false');
+  p.onclick=function(){var k=picked.indexOf(s.short);if(k>-1)picked.splice(k,1);else picked.push(s.short);p.setAttribute('aria-pressed',k<0)};$('pills').appendChild(p)});
+function data(){var n=$('f-name').value.trim(),e=$('f-email').value.trim(),c=$('f-company').value.trim(),m=$('f-msg').value.trim();
+  return {n:n,e:e,c:c,m:m,subject:'Portfolio inquiry from '+(n||'a client')+(c?' ('+c+')':''),body:'Hi Jhuenel,\n\n'+m+'\n\n'+(picked.length?'Services of interest: '+picked.join(', ')+'\n':'')+'Name: '+n+'\nEmail: '+e+(c?'\nCompany: '+c:'')+'\n'}}
+function setStatus(t,cls){var s=$('status');s.className='status'+(cls?' '+cls:'');s.textContent=t}
+function validate(d){
+  if(!d.n){setStatus('Please add your name.','err');$('f-name').focus();return false}
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(d.e)){setStatus('Please add a valid email so I can reply.','err');$('f-email').focus();return false}
+  if(d.m.length<5){setStatus('Please write a short message.','err');$('f-msg').focus();return false}
+  setStatus('');return true}
+function done(d){$('message').innerHTML='<div class="sent"><div class="t"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div><h3>Message sent</h3><p>Thank you, '+esc(d.n.split(' ')[0])+'. Your message is in my inbox and I will reply to '+esc(d.e)+' soon.</p><a class="btn ghost hov" href="https://calendar.app.google/F8MMHQ1r3ZxJ931S7" target="_blank" rel="noopener">Book a call too</a></div>'}
+$('msg').addEventListener('submit',function(ev){
+  ev.preventDefault();if($('f-hp').value)return;var d=data();if(!validate(d))return;
+  if(!LIVE){
+    var url='https://mail.google.com/mail/?view=cm&fs=1&to='+encodeURIComponent(EMAIL)+'&su='+encodeURIComponent(d.subject)+'&body='+encodeURIComponent(d.body);
+    var a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener';document.body.appendChild(a);a.click();a.remove();
+    setStatus('Your message is ready in Gmail. Press Send there to deliver it.','ok');return}
+  var btn=$('sendBtn');btn.disabled=true;setStatus('Sending...');
+  fetch('https://formsubmit.co/ajax/'+EMAIL,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},
+    body:JSON.stringify({name:d.n,email:d.e,company:d.c||'-',services:picked.join(', ')||'-',message:d.m,_subject:d.subject,_replyto:d.e,_template:'table',_captcha:'false'})})
+  .then(function(r){return r.json().catch(function(){return {}}).then(function(j){return {ok:r.ok,j:j}})})
+  .then(function(x){if(x.ok&&(x.j.success===true||x.j.success==='true'))done(d);else{btn.disabled=false;setStatus('The message could not be sent right now. Please email '+EMAIL+' directly or use Copy message instead.','err')}})
+  .catch(function(){btn.disabled=false;setStatus('No connection to the mail service. Please email '+EMAIL+' directly or use Copy message instead.','err')});
+});
+$('copyMsg').addEventListener('click',function(){var d=data();if(!validate(d))return;copyText('To: '+EMAIL+'\nSubject: '+d.subject+'\n\n'+d.body,'Message copied. Paste it into an email to '+EMAIL)});
+
+/* skill popups */
+var SK=[
+ {t:"Executive Assistance",h:"Your priorities, handled before you have to ask.",d:["Run the CEO's day: priorities, follow-ups, documentation, and daily operations","Send clear end-of-day progress reports, so you always know where things stand","Work within your SOPs and quality-check everything before it reaches you"],p:["CEO","Executive Assistant to the CEO at GoViral, supporting agency operations end to end"]},
+ {t:"Lead Generation",h:"Qualified decision-makers, not just names on a list.",d:["Build targeted lists of CEOs, Founders, CMOs, and Growth Leaders that match your ideal client","Qualify every company on fit and outreach potential before it enters your pipeline","Verify and enrich contacts with ContactOut and Hunter.io so your emails land"],p:["+15%","Lead-to-client conversion raised at Pelicen, with a 20% lift in team sales performance"]},
+ {t:"Calendar & Inbox",h:"A calm calendar and an inbox that never slips.",d:["Triage email daily and surface only what needs your decision","Schedule meetings across time zones with prep and follow-ups ready","Track every open thread so replies and commitments go out on time"],p:["Daily","Managed priorities, correspondence, and follow-ups directly for a CEO"]},
+ {t:"CRM & Pipeline",h:"Clean data and a clear next step for every deal.",d:["Keep lead statuses, notes, and follow-ups current in Pipedrive, HubSpot, or Zoho","Organize pipelines so every opportunity has an owner and a next action","Run quality checks that keep records accurate and reports reliable"],p:["50+","Client accounts managed at Pelicen, with client retention up 25%"]},
+ {t:"Prospect Research",h:"Research that tells you who to contact and why.",d:["Find the right companies with LinkedIn Sales Navigator, Meta Ad Library, and company websites","Identify the real decision-maker behind each account","Summarize market and company insights your outreach can act on"],p:["DTC","Researched DTC and e-commerce brands to feed GoViral's outbound pipeline"]},
+ {t:"Cold Email Outreach",h:"Campaigns that stay deliverable, organized, and on schedule.",d:["Manage Instantly email campaigns and Dripify LinkedIn sequences","Handle replies, update lead statuses, and hand off warm leads fast","Spot bounce and deliverability issues early, before they cost you leads"],p:["2","Outreach channels run in parallel at GoViral: cold email and LinkedIn"]},
+ {t:"Customer Success",h:"Customers who feel heard, helped, and ready to stay.",d:["Resolve 50+ inquiries a day across email, chat, and phone","Fix issues on first contact with clear explanations and complete case notes","Share recurring feedback with your team to improve the experience"],p:["95%","Customer satisfaction at Aidey, with escalations reduced by 30%"]},
+ {t:"Data Accuracy",h:"Records you can trust, every single time.",d:["Process high-volume records against strict quality and HIPAA standards","Catch and correct inconsistencies before they become problems","Keep data organized so information is easy to find and report on"],p:["99%+","Accuracy across 1,500+ patient records every month at Flex Medical"]},
+ {t:"AI-Powered Workflows",h:"I don't just use AI. I build it into how your business runs.",d:["The right AI for each job: Claude for long documents and polished writing, ChatGPT for custom assistants, Gemini inside Gmail, Docs, and Sheets","Custom AI assistants set up with your SOPs, brand voice, and FAQs, so routine replies already sound like you","A 40-page report or an hour-long meeting turned into a one-page brief with decisions and next steps","Every AI result fact-checked by me, with your confidential data kept out of public tools"],p:["3-in-1","ChatGPT, Claude, and Gemini combined into one workflow, each doing what it does best"]}
+];
+(function(){
+  var pop=$('skpop'),host=pop.parentNode,cur=-1,lastBtn=null;
+  function close(focus){if(cur<0)return;pop.hidden=true;if(lastBtn){lastBtn.setAttribute('aria-expanded','false');if(focus)lastBtn.focus()}cur=-1}
+  function place(btn){
+    if(innerWidth<=640){pop.style.left='';pop.style.top='';return}
+    var bar=document.querySelector('.bar'),navB=bar?bar.getBoundingClientRect().bottom:0;
+    var avail=innerHeight-navB-16;
+    pop.classList.remove('tight');pop.style.maxHeight='';pop.style.width='';
+    var colW=btn.closest('.hero-text').getBoundingClientRect().width;
+    if(pop.offsetHeight>innerHeight-btn.getBoundingClientRect().bottom-12&&pop.offsetHeight>btn.getBoundingClientRect().top-navB-12)pop.style.width=Math.min(colW,560)+'px';
+    if(pop.offsetHeight>avail)pop.classList.add('tight');
+    pop.style.maxHeight=avail+'px';
+    var br=btn.getBoundingClientRect(),w=pop.offsetWidth,h=pop.offsetHeight;
+    var below=innerHeight-br.bottom-12,above=br.top-navB-12,top,mode;
+    if(h<=below){top=br.bottom+10;mode='down'}
+    else if(h<=above){top=br.top-10-h;mode='up'}
+    else{mode='float'}
+    var left=br.left+br.width/2-w/2;
+    var col=btn.closest('.hero-text').getBoundingClientRect();
+    if(mode==='float'){top=Math.max(navB+8,innerHeight-h-8)}
+    left=Math.max(col.left,Math.min(left,col.right-w));
+    left=Math.max(12,Math.min(left,innerWidth-w-12));
+    pop.classList.toggle('up',mode==='up');pop.classList.toggle('float',mode==='float');
+    pop.style.left=left+'px';pop.style.top=top+'px';
+    pop.style.setProperty('--ax',(br.left+br.width/2-left)+'px');
+  }
+  function open(i,btn){
+    var k=SK[i];if(lastBtn)lastBtn.setAttribute('aria-expanded','false');
+    pop.innerHTML='<button type="button" class="x" aria-label="Close">&times;</button><div class="eb">How I deliver</div><h4 id="skpop-t">'+esc(k.t)+'</h4><p class="hl">'+esc(k.h)+'</p><ul>'+k.d.map(function(x){return '<li>'+esc(x)+'</li>'}).join('')+'</ul><div class="proof"><b>'+esc(k.p[0])+'</b><span>'+esc(k.p[1])+'</span></div><a class="go" href="https://calendar.app.google/F8MMHQ1r3ZxJ931S7" target="_blank" rel="noopener">Book a call about this <span aria-hidden="true">&rarr;</span></a>';
+    pop.hidden=false;cur=i;lastBtn=btn;btn.setAttribute('aria-expanded','true');place(btn);
+    pop.querySelector('.x').onclick=function(){close(true)};
+  }
+  document.querySelectorAll('.chip[data-sk]').forEach(function(b){b.addEventListener('click',function(e){e.stopPropagation();var i=+b.dataset.sk;if(cur===i)close(false);else open(i,b)})});
+  document.addEventListener('click',function(e){if(cur>=0&&!pop.contains(e.target))close(false)});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')close(true)});
+  addEventListener('resize',function(){if(cur>=0)place(lastBtn)});
+  addEventListener('scroll',function(){if(cur>=0){var r=lastBtn.getBoundingClientRect();if(r.bottom<0||r.top>innerHeight)close(false);else place(lastBtn)}},{passive:true});
+})();
+</script>
+
+</body>
+</html>
