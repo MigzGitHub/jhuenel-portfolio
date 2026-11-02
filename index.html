@@ -845,8 +845,8 @@ $('msg').addEventListener('submit',function(ev){
     var a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener';document.body.appendChild(a);a.click();a.remove();
     setStatus('Your message is ready in Gmail. Press Send there to deliver it.','ok');return}
   var btn=$('sendBtn');btn.disabled=true;setStatus('Sending...');
-  fetch('https://formsubmit.co/ajax/'+EMAIL,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},
-    body:JSON.stringify({name:d.n,email:d.e,company:d.c||'-',services:picked.join(', ')||'-',message:d.m,_subject:d.subject,_replyto:d.e,_template:'table',_captcha:'false'})})
+  fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},
+    body:JSON.stringify({access_key:'b89c5bc2-406c-4d5c-b3d0-37a326cfa717',subject:d.subject,from_name:'Jhuenel Portfolio',name:d.n,email:d.e,replyto:d.e,company:d.c||'-',services:picked.join(', ')||'-',message:d.m,botcheck:''})})
   .then(function(r){return r.json().catch(function(){return {}}).then(function(j){return {ok:r.ok,j:j}})})
   .then(function(x){if(x.ok&&(x.j.success===true||x.j.success==='true'))done(d);else{btn.disabled=false;setStatus('The message could not be sent right now. Please email '+EMAIL+' directly or use Copy message instead.','err')}})
   .catch(function(){btn.disabled=false;setStatus('No connection to the mail service. Please email '+EMAIL+' directly or use Copy message instead.','err')});
